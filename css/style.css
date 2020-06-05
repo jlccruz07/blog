@@ -1,0 +1,78 @@
+body {
+  background-image: url("https://images.pexels.com/photos/2736497/pexels-photo-2736497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  color: #2c3e50;
+}
+
+.green {
+  font-family: "Pacifico", cursive;
+  font-size: 80px;
+  color: #05a081;
+}
+
+hr.top {
+  margin-bottom: 50px;
+}
+
+article {
+  font-family: "Source Sans Pro", sans-serif;
+  border: 20px solid #bdc3c7;
+  padding: 20px;
+  max-width: 700px;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #faf4f4;
+  box-shadow: 10px 10px 8px #3a3a3a;
+}
+
+.date {
+  text-transform: uppercase;
+  color: #05a081;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 2rem;
+}
+
+p.quote {
+  border-left: 5px solid #05a081;
+  padding-left: 5px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+footer {
+  background-color: #05a081;
+  color: #fefefe;
+  text-align: center;
+  padding: 0.75rem;
+  margin-top: auto;
+}
